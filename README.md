@@ -6,11 +6,12 @@ The publicly available code for medical image segmentation released by the Smile
 
 By Zhuoyuan Wang, Haiqiao Wang, Yi Wang.
 
-## Resnet50(MedicalNet)
+### Resnet50(MedicalNet)
 [Model parameters](https://drive.google.com/file/d/1f2oZ_GHRE5LNmiPfGJjY1YAZpNySvFsY/view?usp=sharing)
 
 ### Environment
 Code has been tested with Python 3.9 and PyTorch 1.12.1.
+
 [Modet package download]{https://github.com/ZAX130/ModeTv2}. 
 
 ### Citation
