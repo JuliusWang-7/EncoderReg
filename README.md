@@ -12,7 +12,7 @@ By Zhuoyuan Wang, Haiqiao Wang, Yi Wang.
 ### Environment
 Code has been tested with Python 3.9 and PyTorch 1.12.1.
 
-[Modet package download]{https://github.com/ZAX130/ModeTv2}. 
+[Modet package download](https://github.com/ZAX130/ModeTv2). 
 
 ### Citation
 If you use the code in your research, please cite:
