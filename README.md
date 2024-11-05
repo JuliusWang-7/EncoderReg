@@ -1,5 +1,5 @@
 # EncoderReg
-The publicly available code for medical image segmentation released by the Smile Lab.
+The publicly available code for medical image registration released by the Smile Lab.
 
 ## Encoding Matching Criteria for Cross-domain Deformable Registration
 [Paper Link](https://arxiv.org/abs/2406.12350)
