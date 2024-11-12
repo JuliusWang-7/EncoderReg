@@ -1,10 +1,9 @@
 import glob
 import sys
-sys.path.append('/raid1/wzy/codes/Medical_Image_Registration_online')
-from MICCAI24 import losses, utils
+import losses, utils
 from torch.utils.data import DataLoader
-from MICCAI24.data.datasets_3 import *
-from MICCAI24.data import trans
+from data.datasets_3 import *
+from data import trans
 import numpy as np
 import torch
 from torchvision import transforms
@@ -14,7 +13,7 @@ import matplotlib.pyplot as plt
 from natsort import natsorted
 from models.EncoderReg import EncoderReg
 import nibabel
-from MICCAI24.resnet import resnet50
+from resnet import resnet50
 from sklearn.decomposition import PCA
 import torch.nn.functional as nnF
 
