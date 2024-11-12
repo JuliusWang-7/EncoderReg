@@ -3,12 +3,10 @@ import time
 
 from torch.utils.tensorboard import SummaryWriter
 import os
-import sys
-sys.path.append('/raid1/wzy/codes/Medical_Image_Registration_online')
-from MICCAI24 import losses, utils
+import losses, utils
 import sys
 from torch.utils.data import DataLoader
-from MICCAI24.data import trans
+from data import trans
 import numpy as np
 import torch
 from torchvision import transforms
@@ -16,7 +14,7 @@ from torch import optim
 import torch.nn as nn
 import matplotlib.pyplot as plt
 from natsort import natsorted
-from MICCAI24.data.datasets_3 import *
+from data.datasets_3 import *
 # model list
 from models.EncoderReg import EncoderReg
 
